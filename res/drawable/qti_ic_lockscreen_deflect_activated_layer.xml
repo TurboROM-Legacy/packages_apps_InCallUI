@@ -12,7 +12,6 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/fab_blue" />
     <item>
@@ -23,3 +22,8 @@
             android:autoMirrored="true" />
     </item>
 </layer-list>
+-->
+<resources>
+    <color name="background_white">@android:color/white</color>
+    <color name="dialpad_digits_color">@color/incall_background_color</color>
+</resources>
